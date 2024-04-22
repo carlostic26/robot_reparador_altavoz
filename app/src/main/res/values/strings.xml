@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Robot Altavoz</string>
+    <string name="btn_continuar">Continuar</string>
+    <string name="txt_demostracion">(Demostración)</string>
+
+    <!-- <string name="bannerAd">ca-app-pub-3940256099942544/9214589741</string> -->
+
+    <string name="bannerAd">ca-app-pub-4336409771912215/9219264252</string>
+</resources>
