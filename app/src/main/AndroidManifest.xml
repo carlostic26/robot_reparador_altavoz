@@ -17,6 +17,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Robot_bocina"
         tools:targetApi="31">
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4336409771912215~5123789343" />
+
+
         <activity
             android:name=".screens.TutorialActivity"
             android:exported="false"
@@ -25,10 +32,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4336409771912215~5123789343" />
 
         <activity
             android:name=".screens.HomeActivity"
@@ -38,16 +41,11 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
             android:name=".screens.LoadingScreenActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
